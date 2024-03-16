@@ -1,0 +1,513 @@
+---> int main(int, char**) /media/Infinity/dev/BasicGames/b2c/b2c.cpp[2104]
+    Opened input file
+    Opened vars file
+    Parsing ...
+    Processing line 1!
+    (LEX)TK_Integer=1000 YYSTATE=0
+    Processing line 2!
+    (LEX)TK_Integer=1010 YYSTATE=0
+    (LEX)TK_Randomize='RANDOMIZE'
+    Processing line 3!
+    (LEX)TK_Integer=1020 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"FOR RULES, TYPE 'RULES', OTHERWISE TYPE 'GO'"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="FOR RULES, TYPE 'RULES', OTHERWISE TYPE 'GO'"
+    Processing line 4!
+    (LEX)TK_Integer=1030 YYSTATE=0
+    (LEX)TK_Input='INPUT'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=R$
+    (normal)basiclval.stype='R$'
+    Processing line 5!
+    (LEX)TK_Integer=1040 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=R$
+    (normal)basiclval.stype='R$'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_QuoteString='"RULES"'
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1080 YYSTATE=3
+    Processing line 6!
+    (LEX)TK_Integer=1050 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=R$
+    (normal)basiclval.stype='R$'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_QuoteString='"GO"'
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1130 YYSTATE=3
+    Processing line 7!
+    (LEX)TK_Integer=1060 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"INVALID COMMAND"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="INVALID COMMAND"
+    Processing line 8!
+    (LEX)TK_Integer=1070 YYSTATE=0
+    (LEX)TK_Goto='GOTO'
+    (LEX)TK_Integer=1020 YYSTATE=3
+    Processing line 9!
+    (LEX)TK_Integer=1080 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"A 7 OR 11 ON THE FIRST THROW WINS"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="A 7 OR 11 ON THE FIRST THROW WINS"
+    Processing line 10!
+    (LEX)TK_Integer=1090 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"YOU CAN ALSO WIN BY THROWING A 4,5,6,8,9,10"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="YOU CAN ALSO WIN BY THROWING A 4,5,6,8,9,10"
+    Processing line 11!
+    (LEX)TK_Integer=1100 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"AND MATCHING IT BEFORE THROWING A 7, IF ON"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="AND MATCHING IT BEFORE THROWING A 7, IF ON"
+    Processing line 12!
+    (LEX)TK_Integer=1110 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"THE FIRST THROW A 2,3, OR A 12 COMES UP"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="THE FIRST THROW A 2,3, OR A 12 COMES UP"
+    Processing line 13!
+    (LEX)TK_Integer=1120 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"YOU LOSE AUTOMATICALLY"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="YOU LOSE AUTOMATICALLY"
+    Processing line 14!
+    (LEX)TK_Integer=1130 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=J
+    (normal)basiclval.stype='J'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=0 YYSTATE=3
+    Processing line 15!
+    (LEX)TK_Integer=1140 YYSTATE=0
+    (LEX)TK_Gosub='GOSUB'
+    (LEX)TK_Integer=1480 YYSTATE=3
+    Processing line 16!
+    (LEX)TK_Integer=1150 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=D1
+    (normal)basiclval.stype='D1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=N
+    (normal)basiclval.stype='N'
+    Processing line 17!
+    (LEX)TK_Integer=1160 YYSTATE=0
+    (LEX)TK_Gosub='GOSUB'
+    (LEX)TK_Integer=1480 YYSTATE=3
+    Processing line 18!
+    (LEX)TK_Integer=1170 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=D2
+    (normal)basiclval.stype='D2'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=N
+    (normal)basiclval.stype='N'
+    Processing line 19!
+    (LEX)TK_Integer=1180 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=D3
+    (normal)basiclval.stype='D3'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=D1
+    (normal)basiclval.stype='D1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x43'+'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=D2
+    (normal)basiclval.stype='D2'
+    Processing line 20!
+    (LEX)TK_Integer=1190 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=J
+    (normal)basiclval.stype='J'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=J
+    (normal)basiclval.stype='J'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x43'+'
+    (LEX)TK_Integer=1 YYSTATE=3
+    Processing line 21!
+    (LEX)TK_Integer=1200 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=J
+    (normal)basiclval.stype='J'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=1 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1250 YYSTATE=3
+    Processing line 22!
+    (LEX)TK_Integer=1210 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=D3
+    (normal)basiclval.stype='D3'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=D4
+    (normal)basiclval.stype='D4'
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1440 YYSTATE=3
+    Processing line 23!
+    (LEX)TK_Integer=1220 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=D3
+    (normal)basiclval.stype='D3'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=7 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1460 YYSTATE=3
+    Processing line 24!
+    (LEX)TK_Integer=1230 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"YOU THROW A "'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="YOU THROW A "
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    (LEX)TK_Name(PrintStmt)=D3
+    Processing line 25!
+    (LEX)TK_Integer=1240 YYSTATE=0
+    (LEX)TK_Goto='GOTO'
+    (LEX)TK_Integer=1140 YYSTATE=3
+    Processing line 26!
+    (LEX)TK_Integer=1250 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=D3
+    (normal)basiclval.stype='D3'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=7 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1320 YYSTATE=3
+    Processing line 27!
+    (LEX)TK_Integer=1260 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=D3
+    (normal)basiclval.stype='D3'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=2 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1340 YYSTATE=3
+    Processing line 28!
+    (LEX)TK_Integer=1270 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=D3
+    (normal)basiclval.stype='D3'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=3 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1340 YYSTATE=3
+    Processing line 29!
+    (LEX)TK_Integer=1280 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=D3
+    (normal)basiclval.stype='D3'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=12 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1340 YYSTATE=3
+    Processing line 30!
+    (LEX)TK_Integer=1290 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=D3
+    (normal)basiclval.stype='D3'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=11 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1320 YYSTATE=3
+    Processing line 31!
+    (LEX)TK_Integer=1300 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=D4
+    (normal)basiclval.stype='D4'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=D3
+    (normal)basiclval.stype='D3'
+    Processing line 32!
+    (LEX)TK_Integer=1310 YYSTATE=0
+    (LEX)TK_Goto='GOTO'
+    (LEX)TK_Integer=1230 YYSTATE=3
+    Processing line 33!
+    (LEX)TK_Integer=1320 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"YOU THROW A "'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="YOU THROW A "
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    (LEX)TK_Name(PrintStmt)=D3
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+        printfield = 3
+        yytext     = '" YOU WIN"'
+        LastToken  = '59'
+    (LEX)TK_QuoteString(PRINTSTMT)=" YOU WIN"
+    Processing line 34!
+    (LEX)TK_Integer=1330 YYSTATE=0
+    (LEX)TK_Goto='GOTO'
+    (LEX)TK_Integer=1350 YYSTATE=3
+    Processing line 35!
+    (LEX)TK_Integer=1340 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"YOU THROW A "'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="YOU THROW A "
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    (LEX)TK_Name(PrintStmt)=D3
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+        printfield = 3
+        yytext     = '" YOU LOSE"'
+        LastToken  = '59'
+    (LEX)TK_QuoteString(PRINTSTMT)=" YOU LOSE"
+    Processing line 36!
+    (LEX)TK_Integer=1350 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 37!
+    (LEX)TK_Integer=1360 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"TO CONTINUE TYPE 'Y', IF NOT TYPE'N'"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="TO CONTINUE TYPE 'Y', IF NOT TYPE'N'"
+    Processing line 38!
+    (LEX)TK_Integer=1370 YYSTATE=0
+    (LEX)TK_Input='INPUT'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=L$
+    (normal)basiclval.stype='L$'
+    Processing line 39!
+    (LEX)TK_Integer=1380 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=L$
+    (normal)basiclval.stype='L$'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_QuoteString='"Y"'
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1420 YYSTATE=3
+    Processing line 40!
+    (LEX)TK_Integer=1390 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=L$
+    (normal)basiclval.stype='L$'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_QuoteString='"N"'
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1400 YYSTATE=3
+    Processing line 41!
+    (LEX)TK_Integer=1400 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"WHAT? QUITTING ALREADY, CRAP OUT DID YOU?"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="WHAT? QUITTING ALREADY, CRAP OUT DID YOU?"
+    Processing line 42!
+    (LEX)TK_Integer=1410 YYSTATE=0
+    (LEX)TK_Stop='STOP'
+    Processing line 43!
+    (LEX)TK_Integer=1420 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 44!
+    (LEX)TK_Integer=1430 YYSTATE=0
+    (LEX)TK_Goto='GOTO'
+    (LEX)TK_Integer=1130 YYSTATE=3
+    Processing line 45!
+    (LEX)TK_Integer=1440 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"YOU THROW A "'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="YOU THROW A "
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    (LEX)TK_Name(PrintStmt)=D3
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+        printfield = 3
+        yytext     = '" YOU WIN BY MATCHING"'
+        LastToken  = '59'
+    (LEX)TK_QuoteString(PRINTSTMT)=" YOU WIN BY MATCHING"
+    Processing line 46!
+    (LEX)TK_Integer=1450 YYSTATE=0
+    (LEX)TK_Goto='GOTO'
+    (LEX)TK_Integer=1350 YYSTATE=3
+    Processing line 47!
+    (LEX)TK_Integer=1460 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"YOU THROW A "'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="YOU THROW A "
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    (LEX)TK_Name(PrintStmt)=D3
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+        printfield = 3
+        yytext     = '" SORRY, YOU LOSE"'
+        LastToken  = '59'
+    (LEX)TK_QuoteString(PRINTSTMT)=" SORRY, YOU LOSE"
+    Processing line 48!
+    (LEX)TK_Integer=1470 YYSTATE=0
+    (LEX)TK_Goto='GOTO'
+    (LEX)TK_Integer=1350 YYSTATE=3
+    Processing line 49!
+    (LEX)TK_Integer=1480 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=N
+    (normal)basiclval.stype='N'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=1 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x43'+'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=INT
+    (normal)basiclval.stype='INT'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    (LEX)TK_Integer=6 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x42'*'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=RND
+    (normal)basiclval.stype='RND'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Processing line 50!
+    (LEX)TK_Integer=1490 YYSTATE=0
+    (LEX)TK_Return='RETURN'
+    Processing line 51!
+    (LEX)TK_Integer=1500 YYSTATE=0
+    (LEX)TK_End='END'
+    Processing line 52!
+    Sorting Symbols ...
+    Grab Labels ...
+    Update Vars ...
+    Mark All Routines ...
+    Display Initial Code ...
+    TStatement::_RtnCount-1=1
+    Fixup targets that are on comments.
+    FixupTargets() stmt:'1000 REM THIS PROGRAM SIMULATES THE GAME OF CRAPS'
+    FixupTargets() stmt:'1010 RANDOMIZE'
+    FixupTargets() stmt:'1020 PRINT"FOR RULES, TYPE 'RULES', OTHERWISE TYPE 'GO'"'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1030 INPUT R$'
+    FixupTargets() stmt:'1040 IF R$="RULES" THEN 1080'
+    FixupTargets() stmt:'1050 IF R$="GO" THEN 1130'
+    FixupTargets() stmt:'1060 PRINT"INVALID COMMAND"'
+    FixupTargets() stmt:'1070 GOTO 1020'
+    FixupTargets() stmt:'1080 PRINT"A 7 OR 11 ON THE FIRST THROW WINS"'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1090 PRINT"YOU CAN ALSO WIN BY THROWING A 4,5,6,8,9,10"'
+    FixupTargets() stmt:'1100 PRINT"AND MATCHING IT BEFORE THROWING A 7, IF ON"'
+    FixupTargets() stmt:'1110 PRINT"THE FIRST THROW A 2,3, OR A 12 COMES UP"'
+    FixupTargets() stmt:'1120 PRINT"YOU LOSE AUTOMATICALLY"'
+    FixupTargets() stmt:'1130 LET J=0'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1140 GOSUB 1480'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1150 LET D1=N'
+    FixupTargets() stmt:'1160 GOSUB 1480'
+    FixupTargets() stmt:'1170 LET D2=N'
+    FixupTargets() stmt:'1180 LET D3=D1+D2'
+    FixupTargets() stmt:'1190 LET J=J+1'
+    FixupTargets() stmt:'1200 IF J=1 THEN 1250'
+    FixupTargets() stmt:'1210 IF D3=D4 THEN 1440'
+    FixupTargets() stmt:'1220 IF D3=7 THEN 1460'
+    FixupTargets() stmt:'1230 PRINT"YOU THROW A ";D3'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1240 GOTO 1140'
+    FixupTargets() stmt:'1250 IF D3=7 THEN 1320'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1260 IF D3=2 THEN 1340'
+    FixupTargets() stmt:'1270 IF D3=3 THEN 1340'
+    FixupTargets() stmt:'1280 IF D3=12 THEN 1340'
+    FixupTargets() stmt:'1290 IF D3=11 THEN 1320'
+    FixupTargets() stmt:'1300 LET D4=D3'
+    FixupTargets() stmt:'1310 GOTO 1230'
+    FixupTargets() stmt:'1320 PRINT"YOU THROW A ";D3;" YOU WIN"'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1330 GOTO 1350'
+    FixupTargets() stmt:'1340 PRINT"YOU THROW A ";D3;" YOU LOSE"'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1350 PRINT'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1360 PRINT"TO CONTINUE TYPE 'Y', IF NOT TYPE'N'"'
+    FixupTargets() stmt:'1370 INPUT L$'
+    FixupTargets() stmt:'1380 IF L$="Y" THEN 1420'
+    FixupTargets() stmt:'1390 IF L$="N" THEN 1400'
+    FixupTargets() stmt:'1400 PRINT"WHAT? QUITTING ALREADY, CRAP OUT DID YOU?"'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1410 STOP'
+    FixupTargets() stmt:'1420 PRINT'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1430 GOTO 1130'
+    FixupTargets() stmt:'1440 PRINT"YOU THROW A ";D3;" YOU WIN BY MATCHING"'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1450 GOTO 1350'
+    FixupTargets() stmt:'1460 PRINT"YOU THROW A ";D3;" SORRY, YOU LOSE"'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1470 GOTO 1350'
+    FixupTargets() stmt:'1480 LET N=1+INT(6*RND)'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1490 RETURN'
+    FixupTargets() stmt:'1500 END'
+    Finished FixupTargets
+    Split Overlapping Subroutines ...
+    Straighten Overlapping Subroutines ...
+    Renumber Source ...
+    Display Empty Code Ranges ...
+    Display Symbol Table ...
+    Display of final 'clean' BASIC listing ...
+    TStatement::_RtnCount-1=1
+    Finished!!!
+<--- int main(int, char**) /media/Infinity/dev/BasicGames/b2c/b2c.cpp[2210]
